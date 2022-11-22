@@ -1,1341 +1,1014 @@
 
-2022/11/22 11:37:53 [debug] 31127#0: timer delta: 29982
-2022/11/22 11:37:53 [debug] 31127#0: *1 event timer del: 6: 5791203817
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic input handler
-2022/11/22 11:37:53 [info] 31127#0: *1 quic client timed out (110: Connection timed out) while handling quic input, client: 127.0.0.1, server: 0.0.0.0:8443
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close initiated rc:-4
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close silent drain:0 timedout:1
-2022/11/22 11:37:53 [debug] 31127#0: *2 post event 00000000022D1DB0
-2022/11/22 11:37:53 [debug] 31127#0: *6 post event 00000000022D1F30
-2022/11/22 11:37:53 [debug] 31127#0: *3 post event 00000000022D1E10
-2022/11/22 11:37:53 [debug] 31127#0: *7 post event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *4 post event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic connection has 5 active streams
-2022/11/22 11:37:53 [debug] 31127#0: posted event 00000000022D1DB0
-2022/11/22 11:37:53 [debug] 31127#0: *2 delete posted event 00000000022D1DB0
-2022/11/22 11:37:53 [debug] 31127#0: *2 http3 read handler
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close resumed rc:-1
-2022/11/22 11:37:53 [debug] 31127#0: *2 post event 00000000022D1DB0
-2022/11/22 11:37:53 [debug] 31127#0: *6 update posted event 00000000022D1F30
-2022/11/22 11:37:53 [debug] 31127#0: *3 update posted event 00000000022D1E10
-2022/11/22 11:37:53 [debug] 31127#0: *7 update posted event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *4 update posted event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic connection has 5 active streams
-2022/11/22 11:37:53 [debug] 31127#0: *2 http3 close stream
-2022/11/22 11:37:53 [debug] 31127#0: *2 delete posted event 00000000022D1DB0
-2022/11/22 11:37:53 [debug] 31127#0: *2 reusable connection: 0
-2022/11/22 11:37:53 [debug] 31127#0: *2 run cleanup: 0000000002302D00
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x2 cleanup
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x2 close
-2022/11/22 11:37:53 [debug] 31127#0: *1 post event 00000000022D1D50
-2022/11/22 11:37:53 [debug] 31127#0: *2 free: 0000000002302C60, unused: 15896
-2022/11/22 11:37:53 [debug] 31127#0: posted event 00000000022D1F30
-2022/11/22 11:37:53 [debug] 31127#0: *6 delete posted event 00000000022D1F30
-2022/11/22 11:37:53 [debug] 31127#0: *6 http3 dummy read handler
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close resumed rc:-1
-2022/11/22 11:37:53 [debug] 31127#0: *6 post event 00000000022D1F30
-2022/11/22 11:37:53 [debug] 31127#0: *3 update posted event 00000000022D1E10
-2022/11/22 11:37:53 [debug] 31127#0: *7 update posted event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *4 update posted event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic connection has 4 active streams
-2022/11/22 11:37:53 [debug] 31127#0: *6 http3 close stream
-2022/11/22 11:37:53 [debug] 31127#0: *6 delete posted event 00000000022D1F30
-2022/11/22 11:37:53 [debug] 31127#0: *6 reusable connection: 0
-2022/11/22 11:37:53 [debug] 31127#0: *6 run cleanup: 0000000002315D70
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x3 cleanup
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x3 close
-2022/11/22 11:37:53 [debug] 31127#0: *1 update posted event 00000000022D1D50
-2022/11/22 11:37:53 [debug] 31127#0: *6 free: 0000000002315CD0, unused: 15992
-2022/11/22 11:37:53 [debug] 31127#0: posted event 00000000022D1E10
-2022/11/22 11:37:53 [debug] 31127#0: *3 delete posted event 00000000022D1E10
-2022/11/22 11:37:53 [debug] 31127#0: *3 http3 read handler
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close resumed rc:-1
-2022/11/22 11:37:53 [debug] 31127#0: *3 post event 00000000022D1E10
-2022/11/22 11:37:53 [debug] 31127#0: *7 update posted event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *4 update posted event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic connection has 3 active streams
-2022/11/22 11:37:53 [debug] 31127#0: *3 http3 close stream
-2022/11/22 11:37:53 [debug] 31127#0: *3 delete posted event 00000000022D1E10
-2022/11/22 11:37:53 [debug] 31127#0: *3 reusable connection: 0
-2022/11/22 11:37:53 [debug] 31127#0: *3 run cleanup: 0000000002306D10
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x6 cleanup
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x6 close
-2022/11/22 11:37:53 [debug] 31127#0: *1 update posted event 00000000022D1D50
-2022/11/22 11:37:53 [debug] 31127#0: *3 free: 0000000002306C70, unused: 15896
-2022/11/22 11:37:53 [debug] 31127#0: posted event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *7 delete posted event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *7 http3 dummy read handler
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close resumed rc:-1
-2022/11/22 11:37:53 [debug] 31127#0: *7 post event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *4 update posted event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic connection has 2 active streams
-2022/11/22 11:37:53 [debug] 31127#0: *7 http3 close stream
-2022/11/22 11:37:53 [debug] 31127#0: *7 delete posted event 00000000022D1F90
-2022/11/22 11:37:53 [debug] 31127#0: *7 reusable connection: 0
-2022/11/22 11:37:53 [debug] 31127#0: *7 run cleanup: 000000000231DDC0
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x7 cleanup
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0x7 close
-2022/11/22 11:37:53 [debug] 31127#0: *1 update posted event 00000000022D1D50
-2022/11/22 11:37:53 [debug] 31127#0: *7 free: 000000000231DD20, unused: 15992
-2022/11/22 11:37:53 [debug] 31127#0: posted event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *4 delete posted event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *4 http3 read handler
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close resumed rc:-1
-2022/11/22 11:37:53 [debug] 31127#0: *4 post event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic connection has 1 active streams
-2022/11/22 11:37:53 [debug] 31127#0: *4 http3 close stream
-2022/11/22 11:37:53 [debug] 31127#0: *4 delete posted event 00000000022D1E70
-2022/11/22 11:37:53 [debug] 31127#0: *4 reusable connection: 0
-2022/11/22 11:37:53 [debug] 31127#0: *4 run cleanup: 000000000230AD20
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0xa cleanup
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic stream id:0xa close
-2022/11/22 11:37:53 [debug] 31127#0: *1 update posted event 00000000022D1D50
-2022/11/22 11:37:53 [debug] 31127#0: *4 free: 000000000230AC80, unused: 15896
-2022/11/22 11:37:53 [debug] 31127#0: posted event 00000000022D1D50
-2022/11/22 11:37:53 [debug] 31127#0: *1 delete posted event 00000000022D1D50
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic input handler
-2022/11/22 11:37:53 [info] 31127#0: *1 quic client timed out (110: Connection timed out) while handling quic input, client: 127.0.0.1, server: 0.0.0.0:8443
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close resumed rc:-4
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic socket seq:0 closed nsock:6
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic socket seq:1 closed nsock:5
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic socket seq:2 closed nsock:4
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic socket seq:3 closed nsock:3
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic socket seq:4 closed nsock:2
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic socket seq:5 closed nsock:1
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic socket seq:6 closed nsock:0
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic close completed
-2022/11/22 11:37:53 [debug] 31127#0: *1 quic ngx_quic_send_alert() level:app alert:0
-2022/11/22 11:37:53 [debug] 31127#0: *1 SSL_shutdown: 1
-2022/11/22 11:37:53 [debug] 31127#0: *1 reusable connection: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 run cleanup: 00000000022AFC58
-2022/11/22 11:37:53 [debug] 31127#0: *1 event timer del: -1: 5791248840
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000023130F0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 0000000002311ED0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 0000000002310EC0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 000000000231BD00
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 000000000231ACF0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 000000000231CD10
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 0000000002319CE0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 0000000002314CC0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 000000000230FCA0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 000000000230EC90
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 0000000002301C50
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B0570
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B4400
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B9EB0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B3F40
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022AA7F0, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022BA7E0, unused: 8
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022BAAF0, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022BAD00, unused: 4
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B0240, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022BB410, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B2F70, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B2CE0, unused: 8
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022AF670, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022AF880, unused: 8
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022AFA90, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022AFDA0, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022BB620, unused: 8
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B15D0, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B17E0, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B19F0, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B1EF0, unused: 8
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B2100, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B2310, unused: 8
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 00000000022B2520, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 0000000002310CB0, unused: 0
-2022/11/22 11:37:53 [debug] 31127#0: *1 free: 0000000002312EE0, unused: 288
-2022/11/22 11:37:53 [debug] 31127#0: worker cycle
-2022/11/22 11:37:53 [debug] 31127#0: epoll timer: -1
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: posix_memalign: 00000000022B3290:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: malloc: 00000000022B2CE0:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: 127.0.0.1:42917 fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic run
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx long flags:cd version:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx init len:1153
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:18 e60c3af4320102a9fc757f27a074bfa7d33a
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx scid len:17 ae745849903e73bcc66f462fb71c9a8a79
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic address validation token len:0 
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 00000000022AF670:2344
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 00000000022AA7F0:648
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022AFFA0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_set_initial_secret
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:0 listening at sid:d723947bf0a400a49589d996ab6d786311928861 nsock:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic cid seq:0 received id:17:ae745849903e73bcc66f462fb71c9a8a79:00000000000000000000000000000000
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B02B0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 created addr:127.0.0.1:42917
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 set active sent:0 recvd:0 state:LN
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B3F40:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:-1 listening at sid:e60c3af4320102a9fc757f27a074bfa7d33a nsock:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic connection created
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:c0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:0 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:0 recvd:1200 state:LN
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stateless reset token 40e44809643362f19b7e1e3c2d3fb0e9
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx init CRYPTO len:305 off:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic SSL_quic_read_level:0 SSL_quic_write_level:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL server name: "localhost"
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL ALPN supported by client: h3
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL ALPN supported by client: h3-29
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL ALPN supported by client: h3-30
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL ALPN supported by client: h3-31
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL ALPN supported by client: h3-32
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL ALPN selected: h3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_add_handshake_data
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic SSL_get_peer_quic_transport_params(): params_len:72
-2022/11/22 11:38:09 [info] 31127#0: *8 quic unknown transport param id:0x2ab2, skipped while handling frames, client: 127.0.0.1, server: 0.0.0.0:8443
-2022/11/22 11:38:09 [info] 31127#0: *8 quic unknown transport param id:0xff73db, skipped while handling frames, client: 127.0.0.1, server: 0.0.0.0:8443
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic transport parameters parsed ok
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp disable active migration: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp idle_timeout:30000
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp max_udp_payload_size:1252
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp max_data:15728640
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp max_stream_data_bidi_local:6291456
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp max_stream_data_bidi_remote:6291456
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp max_stream_data_uni:6291456
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp initial_max_streams_bidi:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp initial_max_streams_uni:100
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp ack_delay_exponent:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp max_ack_delay:25
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp active_connection_id_limit:7
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic tp initial source_connection_id len:17 ae745849903e73bcc66f462fb71c9a8a79
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 00000000022B9EB0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022BAEC0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_set_write_secret() level:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_add_handshake_data
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 0000000002301C50:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_set_write_secret() level:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B15D0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_flush_flight()
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_set_read_secret() level:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic SSL_quic_read_level:2 SSL_quic_write_level:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL_do_handshake: -1
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL_get_error: 2
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx init PADDING
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:0 largest -1 fr:0 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:init decr:1 pn:0 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 30000:5791249780
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:30000
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 15933
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output init packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx init CRYPTO len:90 off:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx init ACK n:0 delay:0 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx init bytes:99 need_ack:1 number:0 encoded nl:1 trunc:0x0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output hs packet max:1089 min:1037
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic split frame now:1054 need:1026 shrink:28
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx hs CRYPTO len:1022 off:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx hs bytes:1026 need_ack:1 number:0 encoded nl:1 trunc:0x0
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 1252 of 1252
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:163
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1252
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1252
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output hs packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx hs CRYPTO len:28 off:1022
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx hs bytes:32 need_ack:1 number:1 encoded nl:1 trunc:0x1
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 94 of 94
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1252
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1346
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1346
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249780
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer pto:997
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 997:5791220777
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: send:30000 pto:997
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: send:30000 pto:997
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 997
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:70
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx long flags:ea version:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx hs len:22
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx scid len:17 ae745849903e73bcc66f462fb71c9a8a79
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:e0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:0 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:70 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:1346 recvd:1270 state:LN
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion ack recovery win:131054 ss:-1 if:1183
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:-1 closed nsock:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer del: 6: 5791220777
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer pto:993
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 993:5791220777
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 in handshake sent:1346 recvd:1270 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx hs ACK n:0 delay:0 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_handle_ack_frame level:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion ack recovery win:131054 ss:-1 if:94
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion ack recovery win:131054 ss:-1 if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic updated largest received ack:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic rtt sample latest:4 min:4 avg:4 var:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer del: 6: 5791220777
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer unset
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:0 largest -1 fr:0 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:hs decr:1 pn:0 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249784
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29996
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 4
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29996
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 29996
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx long flags:e0 version:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx hs len:56
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx scid len:17 ae745849903e73bcc66f462fb71c9a8a79
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:e0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:1 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:1346 recvd:2470 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx hs CRYPTO len:36 off:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic SSL_quic_read_level:2 SSL_quic_write_level:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_set_read_secret() level:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B0930:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_add_handshake_data
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_flush_flight()
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic SSL_quic_read_level:3 SSL_quic_write_level:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 SSL_do_handshake: 1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ssl cipher:TLS_AES_128_GCM_SHA256
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic handshake completed successfully
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic key update
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer unset
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic create sockets has:1 max:7
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:1 listening at sid:c90bfa9cb3f77d199b44b2151f19dc924ba1514a nsock:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stateless reset token bbdc0017fd4b66a1c1da2126d0de67df
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:2 listening at sid:adedb731cda2075cfa8ea3ea29ef059ade5de506 nsock:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stateless reset token 7995a811be2357f40a325b52ed0b30d3
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:3 listening at sid:1b2a2e29020ee6f0b1c53f00d334bb3913d79852 nsock:4
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B0F10:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stateless reset token 9d7e3ac5e23a5be383d567489076cbdf
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:4 listening at sid:98decec4f99044190ae409a4860aeb849529c4e2 nsock:5
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stateless reset token 33be3a92b38e711f810fcff39d631e42
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B1120:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:5 listening at sid:d19007b4a4bbecc9249afeb9a7b47249725f6c28 nsock:6
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stateless reset token caa41d03ca0d555e3d7ef4bca33c5e92
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic socket seq:6 listening at sid:ab87f7f3ffd329068949f89c2b1c915760ec31b1 nsock:7
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B1330:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stateless reset token 9075b0beb306b50464df6c881648270f
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic init streams
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:1 largest 0 fr:0 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:hs decr:1 pn:1 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:4a
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:0 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app NEW_CONNECTION_ID seq:1 retire:0 len:17
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic cid seq:1 received id:17:1c6e9ee34fb4c807a62dfe7e67d883e5aa:f9273666c3da939dc29eea9579a9d7ba
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x2 len:18
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x2 is missing
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x2 create
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 0000000002302C60:16384 @16
-2022/11/22 11:38:09 [debug] 31127#0: *9 add cleanup: 0000000002302D00
-2022/11/22 11:38:09 [debug] 31127#0: *9 post event 00000000022D1E70
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x2 flow control msd:18/65536 md:18/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0xa len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0xa is missing
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x6 create
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B17E0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 0000000002306C70:16384 @16
-2022/11/22 11:38:09 [debug] 31127#0: *10 add cleanup: 0000000002306D10
-2022/11/22 11:38:09 [debug] 31127#0: *10 post event 00000000022D1F90
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0xa create
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B0570:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 000000000230AC80:16384 @16
-2022/11/22 11:38:09 [debug] 31127#0: *11 add cleanup: 000000000230AD20
-2022/11/22 11:38:09 [debug] 31127#0: *11 post event 00000000022D1E10
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0xa flow control msd:1/65536 md:19/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 000000000230EC90:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x6 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x6 flow control msd:1/65536 md:20/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 000000000230FCA0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 len:988
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 is missing
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 create
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022BB0D0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 0000000002310CB0:16384 @16
-2022/11/22 11:38:09 [debug] 31127#0: *12 add cleanup: 0000000002310D50
-2022/11/22 11:38:09 [debug] 31127#0: *12 post event 00000000022D1F30
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:988/65536 md:1008/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 0000000002314CC0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:0 largest -1 fr:0 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:0 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249801
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29979
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 17
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022BB2E0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output hs packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx hs ACK n:0 delay:0 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx hs bytes:5 need_ack:0 number:2 encoded nl:1 trunc:0x2
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 25:5791219826
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1185 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app CRYPTO len:428 off:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app HANDSHAKE DONE
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app NEW_CONNECTION_ID seq:1 retire:0 len:20
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app NEW_CONNECTION_ID seq:2 retire:0 len:20
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app NEW_CONNECTION_ID seq:3 retire:0 len:20
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app NEW_CONNECTION_ID seq:4 retire:0 len:20
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app NEW_CONNECTION_ID seq:5 retire:0 len:20
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app NEW_CONNECTION_ID seq:6 retire:0 len:20
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:673 need_ack:1 number:0 encoded nl:1 trunc:0x0
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 775 of 775
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:708
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249801
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer pto:37
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 37:5791219838
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: send:29979 push:25 pto:37
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022D1E70
-2022/11/22 11:38:09 [debug] 31127#0: *9 delete posted event 00000000022D1E70
-2022/11/22 11:38:09 [debug] 31127#0: *9 quic init stream
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 init session
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022BB4F0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 add cleanup: 00000000022B19A8
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 send settings
-2022/11/22 11:38:09 [debug] 31127#0: *9 quic creating server uni stream streams:0 max:100 id:0x3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x3 create
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 0000000002315CD0:16384 @16
-2022/11/22 11:38:09 [debug] 31127#0: *13 add cleanup: 0000000002315D70
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 create uni stream, type:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 0000000002319CE0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *13 quic send_chain sent:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x3 flush limit:6291456
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x3 flush len:1 last:0
-2022/11/22 11:38:09 [debug] 31127#0: *13 post event 00000000022D1DB0
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B1EF0:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *13 quic send_chain sent:8
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x3 flush limit:6291455
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x3 flush len:8 last:0
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 init uni stream
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 read handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x2 recv buf:128
-2022/11/22 11:38:09 [debug] 31127#0: *9 quic stream id:0x2 recv len:18
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x2 flow update 18
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse uni
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 0
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 control stream
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse control
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 4
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse frame type:4
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 15
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse frame len:15
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse settings
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 6
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 4611686018427387903
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 param SETTINGS_MAX_HEADER_LIST_SIZE:4611686018427387903
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse settings done
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse settings
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 1
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 4096
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 param QPACK_MAX_TABLE_CAPACITY:4096
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse settings done
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse settings
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 7
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse varlen int 100
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 param QPACK_BLOCKED_STREAMS:100
-2022/11/22 11:38:09 [debug] 31127#0: *9 http3 parse settings done
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x2 recv buf:128
-2022/11/22 11:38:09 [debug] 31127#0: *9 quic stream id:0x2 recv() not ready
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022D1F90
-2022/11/22 11:38:09 [debug] 31127#0: *10 delete posted event 00000000022D1F90
-2022/11/22 11:38:09 [debug] 31127#0: *10 quic init stream
-2022/11/22 11:38:09 [debug] 31127#0: *10 http3 init uni stream
-2022/11/22 11:38:09 [debug] 31127#0: *10 http3 read handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x6 recv buf:128
-2022/11/22 11:38:09 [debug] 31127#0: *10 quic stream id:0x6 recv len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x6 flow update 1
-2022/11/22 11:38:09 [debug] 31127#0: *10 http3 parse uni
-2022/11/22 11:38:09 [debug] 31127#0: *10 http3 parse varlen int 2
-2022/11/22 11:38:09 [debug] 31127#0: *10 http3 encoder stream
-2022/11/22 11:38:09 [debug] 31127#0: *10 http3 parse encoder instruction
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x6 recv buf:128
-2022/11/22 11:38:09 [debug] 31127#0: *10 quic stream id:0x6 recv() not ready
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022D1E10
-2022/11/22 11:38:09 [debug] 31127#0: *11 delete posted event 00000000022D1E10
-2022/11/22 11:38:09 [debug] 31127#0: *11 quic init stream
-2022/11/22 11:38:09 [debug] 31127#0: *11 http3 init uni stream
-2022/11/22 11:38:09 [debug] 31127#0: *11 http3 read handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0xa recv buf:128
-2022/11/22 11:38:09 [debug] 31127#0: *11 quic stream id:0xa recv len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0xa flow update 1
-2022/11/22 11:38:09 [debug] 31127#0: *11 http3 parse uni
-2022/11/22 11:38:09 [debug] 31127#0: *11 http3 parse varlen int 3
-2022/11/22 11:38:09 [debug] 31127#0: *11 http3 decoder stream
-2022/11/22 11:38:09 [debug] 31127#0: *11 http3 parse decoder instruction
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0xa recv buf:128
-2022/11/22 11:38:09 [debug] 31127#0: *11 quic stream id:0xa recv() not ready
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022D1F30
-2022/11/22 11:38:09 [debug] 31127#0: *12 delete posted event 00000000022D1F30
-2022/11/22 11:38:09 [debug] 31127#0: *12 quic init stream
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 init request stream
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 wait request handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 recv buf:1024
-2022/11/22 11:38:09 [debug] 31127#0: *12 quic stream id:0x0 recv len:988
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow update 988
-2022/11/22 11:38:09 [debug] 31127#0: *12 reusable connection: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 posix_memalign: 000000000231ACF0:4096 @16
-2022/11/22 11:38:09 [debug] 31127#0: *12 add cleanup: 000000000231BAD0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 process request
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse headers
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse varlen int 1
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse varlen int 43
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse headers type:1, len:43
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field section prefix
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field section prefix done insert_count:0, sign:0, delta_base:0, base:0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 check insert count req:0, have:0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field ri
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 17
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field ri done static[17]
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 static[17] lookup ":method":"GET"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation done
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 method "GET" 2
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field ri
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 23
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field ri done static[23]
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 static[23] lookup ":scheme":"https"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation done
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 schema "https"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field lri
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 10
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse literal huff:1, len:10
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse literal done "127.0.0.1:8443"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field lri done static[0] "127.0.0.1:8443"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 static[0] lookup ":authority":""
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation done
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 authority "127.0.0.1:8443"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field ri
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 1
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field ri done static[1]
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 static[1] lookup ":path":"/"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation done
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 path "/"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field lri
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 95
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 15
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse literal huff:1, len:15
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse literal done "nghttp3/ngtcp2 client"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field lri done static[95] "nghttp3/ngtcp2 client"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 static[95] lookup "user-agent":""
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation done
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 request line: "GET / HTTP/3.0"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http uri: "/"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http args: ""
-2022/11/22 11:38:09 [debug] 31127#0: *12 http exten: ""
-2022/11/22 11:38:09 [debug] 31127#0: *12 posix_memalign: 000000000231BD00:4096 @16
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 header: "user-agent: nghttp3/ngtcp2 client"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field lri
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 4
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse prefix int 6
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse literal huff:1, len:6
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse literal done "4506448"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field lri done static[4] "4506448"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 static[4] lookup "content-length":"0"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse field representation done
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 parse headers done
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 header: "content-length: 4506448"
-2022/11/22 11:38:09 [debug] 31127#0: *12 rewrite phase: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 test location: "/"
-2022/11/22 11:38:09 [debug] 31127#0: *12 using configuration "/"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http cl:4506448 max:1048576
-2022/11/22 11:38:09 [error] 31127#0: *12 client intended to send too large body: 4506448 bytes, client: 127.0.0.1, server: , request: "GET / HTTP/3.0"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http finalize request: 413, "/?" a:1, c:1
-2022/11/22 11:38:09 [debug] 31127#0: *12 http special response: 413, "/?"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 header len:88
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 output header: ":status: 413"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 output header: "server: nginx/1.21.7"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 output header: "date: Tue, 22 Nov 2022 03:38:09 GMT"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 output header: "content-type: text/html"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 output header: "content-length: 183"
-2022/11/22 11:38:09 [debug] 31127#0: *12 write new buf t:1 f:0 000000000231BC00, pos 000000000231BC00, size: 2 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 write new buf t:1 f:0 000000000231BB48, pos 000000000231BB48, size: 59 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 write new buf t:1 f:0 000000000231BC68, pos 000000000231BC68, size: 3 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http write filter: l:0 f:0 s:64
-2022/11/22 11:38:09 [debug] 31127#0: *12 http output filter "/?"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http copy filter: "/?"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http postpone filter "/?" 000000000231BCB0
-2022/11/22 11:38:09 [debug] 31127#0: *12 write old buf t:1 f:0 000000000231BC00, pos 000000000231BC00, size: 2 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 write old buf t:1 f:0 000000000231BB48, pos 000000000231BB48, size: 59 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 write old buf t:1 f:0 000000000231BC68, pos 000000000231BC68, size: 3 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 write new buf t:0 f:0 0000000000000000, pos 0000000000976F80, size: 130 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 write new buf t:0 f:0 0000000000000000, pos 0000000000976480, size: 53 file: 0, size: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http write filter: l:1 f:0 s:247
-2022/11/22 11:38:09 [debug] 31127#0: *12 http write filter limit 2097152
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 000000000231CD10:4096
-2022/11/22 11:38:09 [debug] 31127#0: *12 quic send_chain sent:247
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flush limit:6291456
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B2100:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flush len:247 last:0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http write filter 0000000000000000
-2022/11/22 11:38:09 [debug] 31127#0: *12 http copy filter: 0 "/?"
-2022/11/22 11:38:09 [debug] 31127#0: *12 http finalize request: 0, "/?" a:1, c:1
-2022/11/22 11:38:09 [debug] 31127#0: *12 http request count:1 blk:0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http close request
-2022/11/22 11:38:09 [debug] 31127#0: *12 http log handler
-2022/11/22 11:38:09 [debug] 31127#0: *12 run cleanup: 000000000231BAD0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 75000:5791294801
-2022/11/22 11:38:09 [debug] 31127#0: *12 free: 000000000231ACF0, unused: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 free: 000000000231BD00, unused: 2705
-2022/11/22 11:38:09 [debug] 31127#0: *12 close http connection: 6
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 send stream cancellation 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 quic creating server uni stream streams:1 max:100 id:0x7
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x7 create
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 000000000231DD20:16384 @16
-2022/11/22 11:38:09 [debug] 31127#0: *14 add cleanup: 000000000231DDC0
-2022/11/22 11:38:09 [debug] 31127#0: *12 http3 create uni stream, type:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 000000000231ACF0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *14 quic send_chain sent:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x7 flush limit:6291456
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B2310:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x7 flush len:1 last:0
-2022/11/22 11:38:09 [debug] 31127#0: *14 post event 00000000022D1ED0
-2022/11/22 11:38:09 [debug] 31127#0: *14 quic send_chain sent:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x7 flush limit:6291455
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x7 flush len:1 last:0
-2022/11/22 11:38:09 [debug] 31127#0: *12 reusable connection: 0
-2022/11/22 11:38:09 [debug] 31127#0: *12 run cleanup: 0000000002310D50
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 cleanup
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 send shutdown
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flush limit:6291209
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 00000000022B2520:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flush len:0 last:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 recv shutdown
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *12 free: 0000000002310CB0, unused: 14948
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app STREAM id:0x3 off:0 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app STREAM id:0x3 off:1 len:8
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app STREAM id:0x0 off:0 len:247
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app STREAM id:0x7 off:0 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app STREAM id:0x7 off:1 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app STREAM id:0x0 off:247 len:0 fin:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app STOP_SENDING id:0x0 err:0x100
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:288 need_ack:1 number:1 encoded nl:1 trunc:0x1
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 323 of 323
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:708
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:708
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer del: 6: 5791219838
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer pto:37
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 37:5791219838
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: send:29979 push:25 pto:37
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022D1DB0
-2022/11/22 11:38:09 [debug] 31127#0: *13 delete posted event 00000000022D1DB0
-2022/11/22 11:38:09 [debug] 31127#0: *13 http3 dummy read handler
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022D1ED0
-2022/11/22 11:38:09 [debug] 31127#0: *14 delete posted event 00000000022D1ED0
-2022/11/22 11:38:09 [debug] 31127#0: *14 http3 dummy read handler
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 25
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1406
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:4b
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:1 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1406 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2444 recvd:3876 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app PING
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app PADDING
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:1 largest 0 fr:0 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:1 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 1
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:0 delay:0 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:5 need_ack:0 number:2 encoded nl:1 trunc:0x2
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 40 of 40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:4a
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:3 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2484 recvd:5076 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:2144 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:3300/65536 md:3320/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 000000000231BD00:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:3 largest 1 fr:1 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:3 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 0000000002310CB0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:1 delay:0 3 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:7 need_ack:0 number:3 encoded nl:1 trunc:0x3
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 42 of 42
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:4c
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:4 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2526 recvd:6276 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:3300 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:4456/65536 md:4476/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:4 largest 3 fr:0 nranges:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:4 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:5a
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:5 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2526 recvd:7476 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:4456 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:5612/65536 md:5632/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:5 largest 4 fr:1 nranges:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:5 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 0000000002311CC0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:1 delay:0 5-3 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:7 need_ack:0 number:4 encoded nl:1 trunc:0x4
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 42 of 42
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:4d
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:6 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2568 recvd:8676 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:5612 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:6768/65536 md:6788/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 000000000231BF10:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:6 largest 5 fr:2 nranges:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:6 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:43
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:7 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2568 recvd:9876 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:6768 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:7924/65536 md:7944/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:7 largest 6 fr:3 nranges:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:7 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:1 delay:0 7-3 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:7 need_ack:0 number:5 encoded nl:1 trunc:0x5
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 42 of 42
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:8 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2610 recvd:11076 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:7924 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:9080/65536 md:9100/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:8 largest 7 fr:4 nranges:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:8 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:54
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:9 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2610 recvd:12276 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:9080 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:10236/65536 md:10256/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:9 largest 8 fr:5 nranges:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:9 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 0000000002312CD0:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:1 delay:0 9-3 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:7 need_ack:0 number:6 encoded nl:1 trunc:0x6
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 42 of 42
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:4a
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:11 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2652 recvd:13476 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:11392 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:12548/65536 md:12568/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 posix_memalign: 000000000231C120:512 @16
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:11 largest 9 fr:6 nranges:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:11 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249802
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 malloc: 0000000002321D30:4096
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:2 delay:0 11 9-3 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:9 need_ack:0 number:7 encoded nl:1 trunc:0x7
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 44 of 44
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:1031
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29978 push:24 pto:36
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 24
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1200
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:5b
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:12 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1200 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2696 recvd:14676 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:12548 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow control msd:13704/65536 md:13724/8585216
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:12 largest 11 fr:0 nranges:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:12 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249803
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29977 push:23 pto:35
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 1
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29977 push:23 pto:35
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 23
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1211
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:44
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:14 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1211 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2696 recvd:15887 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app ACK n:0 delay:4 7-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_handle_ack_frame level:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion slow start win:131762 ss:-1 if:323
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion slow start win:132085 ss:-1 if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x3 ack len:1 acked:1 unacked:8
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x3 ack len:8 acked:9 unacked:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x7 ack len:1 acked:1 unacked:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x7 ack len:1 acked:2 unacked:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic updated largest received ack:7
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer del: 6: 5791219838
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer unset
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app RESET_STREAM id:0x0 error_code:0x100 final_size:0x3588
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 flow update 13704
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 close
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app STREAM id:0x0 off:988 len:1156
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic stream id:0x0 is missing
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:14 largest 12 fr:1 nranges:2
-2022/11/22 11:38:09 [debug] 31127#0: *8 update posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:14 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249804
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29976 push:22
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 1
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app MAX_STREAMS limit:129 bidi:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:3 delay:0 14 12-11 9-3 1-0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:14 need_ack:1 number:8 encoded nl:1 trunc:0x8
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 49 of 49
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:49
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249804
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer pto:37
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 37:5791219841
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: send:29976 push:22 pto:37
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: send:29976 push:22 pto:37
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 22
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:43
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:51
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:15 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:43 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2745 recvd:15930 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app ACK n:0 delay:9 8
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_handle_ack_frame level:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion slow start win:132134 ss:-1 if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_drop_ack_ranges pn:14 largest:14 fr:0 nranges:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic updated largest received ack:8
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic rtt sample latest:0 min:0 avg:4 var:3
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer del: 6: 5791219841
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic lost timer unset
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:15 largest -1 fr:0 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:15 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249804
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29976 push:22
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 0
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 22
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 22
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer del: 6: 5791219826
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29954
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 29954
-2022/11/22 11:38:09 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:09 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:09 [debug] 31127#0: *8 recvmsg: fd:6 n:1444
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx short flags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet rx number:16 len:1
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet len:1444 via sock seq:0 path seq:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic path seq:0 status sent:2745 recvd:17374 state:V
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app PING
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame rx app PADDING
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:16 largest 15 fr:0 nranges:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:16 perr:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer: 6, old: 5791249780, new: 5791249834
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29946
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 8
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer add: 6: 25:5791219859
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29946 push:25
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 25
-2022/11/22 11:38:09 [debug] 31127#0: timer delta: 26
-2022/11/22 11:38:09 [debug] 31127#0: *8 event timer del: 6: 5791219859
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 post event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic output app packet max:1252 min:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic frame tx app ACK n:0 delay:3250 16-15
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic packet tx app bytes:6 need_ack:0 number:9 encoded nl:1 trunc:0x9
-2022/11/22 11:38:09 [debug] 31127#0: *8 sendmsg: 41 of 41
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic congestion send if:0
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29920
-2022/11/22 11:38:09 [debug] 31127#0: posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 delete posted event 00000000022AFC78
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic push handler
-2022/11/22 11:38:09 [debug] 31127#0: *8 quic state: read:29920
-2022/11/22 11:38:09 [debug] 31127#0: worker cycle
-2022/11/22 11:38:09 [debug] 31127#0: epoll timer: 29920
-2022/11/22 11:38:19 [debug] 31127#0: epoll: fd:6 ev:0001 d:00002AFF37B9D010
-2022/11/22 11:38:19 [debug] 31127#0: recvmsg on 0.0.0.0:8443, ready: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 recvmsg: fd:6 n:42
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic packet rx short flags:53
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic packet rx dcid len:20 d723947bf0a400a49589d996ab6d786311928861
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic packet rx clearflags:40
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic packet rx number:17 len:1
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic packet len:42 via sock seq:0 path seq:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic path seq:0 status sent:2786 recvd:17416 state:V
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic frame rx app CONNECTION_CLOSE err:0 ft:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close initiated rc:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close immediate drain:1
-2022/11/22 11:38:19 [debug] 31127#0: *8 event timer add: 6: 48:5791229645
-2022/11/22 11:38:19 [debug] 31127#0: *9 post event 00000000022D1E70
-2022/11/22 11:38:19 [debug] 31127#0: *13 post event 00000000022D1DB0
-2022/11/22 11:38:19 [debug] 31127#0: *10 post event 00000000022D1F90
-2022/11/22 11:38:19 [debug] 31127#0: *14 post event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *11 post event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic connection has 5 active streams
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic ngx_quic_ack_packet pn:17 largest 16 fr:1 nranges:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic packet done rc:0 level:app decr:1 pn:17 perr:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 event timer del: 6: 5791249780
-2022/11/22 11:38:19 [debug] 31127#0: *8 event timer add: 6: 30000:5791259597
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic state: closing draining read:30000 close:48
-2022/11/22 11:38:19 [debug] 31127#0: timer delta: 9737
-2022/11/22 11:38:19 [debug] 31127#0: posted event 00000000022D1E70
-2022/11/22 11:38:19 [debug] 31127#0: *9 delete posted event 00000000022D1E70
-2022/11/22 11:38:19 [debug] 31127#0: *9 http3 read handler
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close resumed rc:-1
-2022/11/22 11:38:19 [debug] 31127#0: *8 event timer del: 6: 5791229645
-2022/11/22 11:38:19 [debug] 31127#0: *9 post event 00000000022D1E70
-2022/11/22 11:38:19 [debug] 31127#0: *13 update posted event 00000000022D1DB0
-2022/11/22 11:38:19 [debug] 31127#0: *10 update posted event 00000000022D1F90
-2022/11/22 11:38:19 [debug] 31127#0: *14 update posted event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *11 update posted event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic connection has 5 active streams
-2022/11/22 11:38:19 [debug] 31127#0: *9 http3 close stream
-2022/11/22 11:38:19 [debug] 31127#0: *9 delete posted event 00000000022D1E70
-2022/11/22 11:38:19 [debug] 31127#0: *9 reusable connection: 0
-2022/11/22 11:38:19 [debug] 31127#0: *9 run cleanup: 0000000002302D00
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x2 cleanup
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x2 close
-2022/11/22 11:38:19 [debug] 31127#0: *8 post event 00000000022D1D50
-2022/11/22 11:38:19 [debug] 31127#0: *9 free: 0000000002302C60, unused: 15896
-2022/11/22 11:38:19 [debug] 31127#0: posted event 00000000022D1DB0
-2022/11/22 11:38:19 [debug] 31127#0: *13 delete posted event 00000000022D1DB0
-2022/11/22 11:38:19 [debug] 31127#0: *13 http3 dummy read handler
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close resumed rc:-1
-2022/11/22 11:38:19 [debug] 31127#0: *13 post event 00000000022D1DB0
-2022/11/22 11:38:19 [debug] 31127#0: *10 update posted event 00000000022D1F90
-2022/11/22 11:38:19 [debug] 31127#0: *14 update posted event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *11 update posted event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic connection has 4 active streams
-2022/11/22 11:38:19 [debug] 31127#0: *13 http3 close stream
-2022/11/22 11:38:19 [debug] 31127#0: *13 delete posted event 00000000022D1DB0
-2022/11/22 11:38:19 [debug] 31127#0: *13 reusable connection: 0
-2022/11/22 11:38:19 [debug] 31127#0: *13 run cleanup: 0000000002315D70
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x3 cleanup
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x3 close
-2022/11/22 11:38:19 [debug] 31127#0: *8 update posted event 00000000022D1D50
-2022/11/22 11:38:19 [debug] 31127#0: *13 free: 0000000002315CD0, unused: 15992
-2022/11/22 11:38:19 [debug] 31127#0: posted event 00000000022D1F90
-2022/11/22 11:38:19 [debug] 31127#0: *10 delete posted event 00000000022D1F90
-2022/11/22 11:38:19 [debug] 31127#0: *10 http3 read handler
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close resumed rc:-1
-2022/11/22 11:38:19 [debug] 31127#0: *10 post event 00000000022D1F90
-2022/11/22 11:38:19 [debug] 31127#0: *14 update posted event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *11 update posted event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic connection has 3 active streams
-2022/11/22 11:38:19 [debug] 31127#0: *10 http3 close stream
-2022/11/22 11:38:19 [debug] 31127#0: *10 delete posted event 00000000022D1F90
-2022/11/22 11:38:19 [debug] 31127#0: *10 reusable connection: 0
-2022/11/22 11:38:19 [debug] 31127#0: *10 run cleanup: 0000000002306D10
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x6 cleanup
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x6 close
-2022/11/22 11:38:19 [debug] 31127#0: *8 update posted event 00000000022D1D50
-2022/11/22 11:38:19 [debug] 31127#0: *10 free: 0000000002306C70, unused: 15896
-2022/11/22 11:38:19 [debug] 31127#0: posted event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *14 delete posted event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *14 http3 dummy read handler
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close resumed rc:-1
-2022/11/22 11:38:19 [debug] 31127#0: *14 post event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *11 update posted event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic connection has 2 active streams
-2022/11/22 11:38:19 [debug] 31127#0: *14 http3 close stream
-2022/11/22 11:38:19 [debug] 31127#0: *14 delete posted event 00000000022D1ED0
-2022/11/22 11:38:19 [debug] 31127#0: *14 reusable connection: 0
-2022/11/22 11:38:19 [debug] 31127#0: *14 run cleanup: 000000000231DDC0
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x7 cleanup
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0x7 close
-2022/11/22 11:38:19 [debug] 31127#0: *8 update posted event 00000000022D1D50
-2022/11/22 11:38:19 [debug] 31127#0: *14 free: 000000000231DD20, unused: 15992
-2022/11/22 11:38:19 [debug] 31127#0: posted event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *11 delete posted event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *11 http3 read handler
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close resumed rc:-1
-2022/11/22 11:38:19 [debug] 31127#0: *11 post event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic connection has 1 active streams
-2022/11/22 11:38:19 [debug] 31127#0: *11 http3 close stream
-2022/11/22 11:38:19 [debug] 31127#0: *11 delete posted event 00000000022D1E10
-2022/11/22 11:38:19 [debug] 31127#0: *11 reusable connection: 0
-2022/11/22 11:38:19 [debug] 31127#0: *11 run cleanup: 000000000230AD20
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0xa cleanup
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic stream id:0xa close
-2022/11/22 11:38:19 [debug] 31127#0: *8 update posted event 00000000022D1D50
-2022/11/22 11:38:19 [debug] 31127#0: *11 free: 000000000230AC80, unused: 15896
-2022/11/22 11:38:19 [debug] 31127#0: posted event 00000000022D1D50
-2022/11/22 11:38:19 [debug] 31127#0: *8 delete posted event 00000000022D1D50
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic input handler
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close resumed rc:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic socket seq:0 closed nsock:6
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic socket seq:1 closed nsock:5
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic socket seq:2 closed nsock:4
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic socket seq:3 closed nsock:3
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic socket seq:4 closed nsock:2
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic socket seq:5 closed nsock:1
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic socket seq:6 closed nsock:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic close completed
-2022/11/22 11:38:19 [debug] 31127#0: *8 quic ngx_quic_send_alert() level:app alert:0
-2022/11/22 11:38:19 [debug] 31127#0: *8 SSL_shutdown: 1
-2022/11/22 11:38:19 [debug] 31127#0: *8 event timer del: 6: 5791259597
-2022/11/22 11:38:19 [debug] 31127#0: *8 reusable connection: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 run cleanup: 00000000022B19A8
-2022/11/22 11:38:19 [debug] 31127#0: *8 event timer del: -1: 5791294801
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 0000000002321D30
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 0000000002312CD0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 0000000002311CC0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 0000000002310CB0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 000000000231ACF0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 000000000231CD10
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 0000000002319CE0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 0000000002314CC0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 000000000230FCA0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 000000000230EC90
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 0000000002301C50
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B9EB0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022AA7F0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022AF670
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B2CE0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B3290, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022AFFA0, unused: 8
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B02B0, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B3F40, unused: 4
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022BAEC0, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B15D0, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B0930, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B0F10, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B1120, unused: 8
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B1330, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B17E0, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B0570, unused: 8
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022BB0D0, unused: 24
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022BB2E0, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022BB4F0, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B1EF0, unused: 8
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B2100, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B2310, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 00000000022B2520, unused: 8
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 000000000231BD00, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 000000000231BF10, unused: 0
-2022/11/22 11:38:19 [debug] 31127#0: *8 free: 000000000231C120, unused: 96
-2022/11/22 11:38:19 [debug] 31127#0: worker cycle
-2022/11/22 11:38:19 [debug] 31127#0: epoll timer: -1
-2022/11/22 11:38:54 [notice] 31127#0: signal 15 (SIGTERM) received from 31288, exiting
-2022/11/22 11:38:54 [notice] 31126#0: signal 15 (SIGTERM) received from 31288, exiting
-2022/11/22 11:38:54 [info] 31127#0: epoll_wait() failed (4: Interrupted system call)
-2022/11/22 11:38:54 [debug] 31127#0: timer delta: 34970
-2022/11/22 11:38:54 [notice] 31127#0: exiting
-2022/11/22 11:38:54 [debug] 31127#0: flush files
-2022/11/22 11:38:54 [debug] 31127#0: run cleanup: 00000000022CD010
-2022/11/22 11:38:54 [debug] 31127#0: run cleanup: 00000000022C5B28
-2022/11/22 11:38:54 [debug] 31126#0: wake up, sigio 0
-2022/11/22 11:38:54 [debug] 31126#0: child: 0 31127 e:0 t:0 d:0 r:1 j:0
-2022/11/22 11:38:54 [debug] 31126#0: termination cycle: 50
-2022/11/22 11:38:54 [debug] 31126#0: sigsuspend
-2022/11/22 11:38:54 [debug] 31127#0: run cleanup: 00000000022C5338
-2022/11/22 11:38:54 [debug] 31127#0: cleanup resolver
-2022/11/22 11:38:54 [debug] 31127#0: run cleanup: 00000000022AD588
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022D03A0
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022BEB20
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022BDA60
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022BC9A0
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022BB8E0
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022AB660, unused: 0
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022B4690, unused: 0
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022BFB30, unused: 0
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022C3B40, unused: 4
-2022/11/22 11:38:54 [debug] 31127#0: free: 00000000022CC390, unused: 13160
-2022/11/22 11:38:54 [notice] 31127#0: exit
-2022/11/22 11:38:54 [notice] 31126#0: signal 17 (SIGCHLD) received from 31127
-2022/11/22 11:38:54 [notice] 31126#0: worker process 31127 exited with code 0
-2022/11/22 11:38:54 [debug] 31126#0: shmtx forced unlock
-2022/11/22 11:38:54 [debug] 31126#0: wake up, sigio 3
-2022/11/22 11:38:54 [debug] 31126#0: reap children
-2022/11/22 11:38:54 [debug] 31126#0: child: 0 31127 e:1 t:1 d:0 r:1 j:0
-2022/11/22 11:38:54 [notice] 31126#0: exit
-2022/11/22 11:38:54 [debug] 31126#0: close listening 0.0.0.0:8443 #7 
-2022/11/22 11:38:54 [debug] 31126#0: run cleanup: 00000000022C5B28
-2022/11/22 11:38:54 [debug] 31126#0: run cleanup: 00000000022C5338
-2022/11/22 11:38:54 [debug] 31126#0: cleanup resolver
-2022/11/22 11:38:54 [debug] 31126#0: run cleanup: 00000000022AD588
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022D03A0
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022BEB20
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022BDA60
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022BC9A0
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022BB8E0
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022AB660, unused: 0
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022B4690, unused: 0
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022BFB30, unused: 0
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022C3B40, unused: 4
-2022/11/22 11:38:54 [debug] 31126#0: free: 00000000022CC390, unused: 13185
+2022/11/22 11:40:32 [debug] 31453#0: bind() 0.0.0.0:8443 #6 
+2022/11/22 11:40:32 [debug] 31453#0: bind() 0.0.0.0:8443 #7 
+2022/11/22 11:40:32 [notice] 31453#0: using the "epoll" event method
+2022/11/22 11:40:32 [debug] 31453#0: counter: 00002B99648D0080, 1
+2022/11/22 11:40:32 [notice] 31453#0: nginx/1.21.7
+2022/11/22 11:40:32 [notice] 31453#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/11/22 11:40:32 [notice] 31453#0: OS: Linux 3.10.0-1160.15.2.el7.x86_64
+2022/11/22 11:40:32 [notice] 31453#0: getrlimit(RLIMIT_NOFILE): 2097152:2097152
+2022/11/22 11:40:32 [debug] 31454#0: write: 8, 00007FFE51907500, 6, 0
+2022/11/22 11:40:32 [debug] 31454#0: setproctitle: "nginx: master process ./nginx -p . -c conf/nginx.conf"
+2022/11/22 11:40:32 [notice] 31454#0: start worker processes
+2022/11/22 11:40:32 [debug] 31454#0: channel 3:8
+2022/11/22 11:40:32 [notice] 31454#0: start worker process 31455
+2022/11/22 11:40:32 [debug] 31454#0: sigsuspend
+2022/11/22 11:40:32 [debug] 31455#0: add cleanup: 0000000002469020
+2022/11/22 11:40:32 [debug] 31455#0: malloc: 0000000002464710:8
+2022/11/22 11:40:32 [debug] 31455#0: notify eventfd: 10
+2022/11/22 11:40:32 [debug] 31455#0: testing the EPOLLRDHUP flag: success
+2022/11/22 11:40:32 [debug] 31455#0: malloc: 00000000024546B0:6144
+2022/11/22 11:40:32 [debug] 31455#0: malloc: 00002B99648DC010:245760
+2022/11/22 11:40:32 [debug] 31455#0: malloc: 000000000246DC40:98304
+2022/11/22 11:40:32 [debug] 31455#0: malloc: 0000000002485C50:98304
+2022/11/22 11:40:32 [debug] 31455#0: epoll add event: fd:6 op:1 ev:00002001
+2022/11/22 11:40:32 [debug] 31455#0: epoll add event: fd:7 op:1 ev:00002001
+2022/11/22 11:40:32 [debug] 31455#0: epoll add event: fd:8 op:1 ev:00002001
+2022/11/22 11:40:32 [debug] 31455#0: setproctitle: "nginx: worker process"
+2022/11/22 11:40:32 [debug] 31455#0: worker cycle
+2022/11/22 11:40:32 [debug] 31455#0: epoll timer: -1
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: posix_memalign: 00000000024467F0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: malloc: 000000000244FF50:1200
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: 127.0.0.1:56861 fd:6 n:1200
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic run
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx long flags:c0 version:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx init len:1153
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:18 5f53ec211433a7926566355155ebc5bf5ce4
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx scid len:17 8a6feb788faaecf0193b74194ebbfb6002
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic address validation token len:0 
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 0000000002455EC0:2344
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 0000000002450410:648
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024567F0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_set_initial_secret
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:0 listening at sid:0ddcbc60bc8822094e694cdaddc7ad8223921b34 nsock:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic cid seq:0 received id:17:8a6feb788faaecf0193b74194ebbfb6002:00000000000000000000000000000000
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 0000000002456B00:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 created addr:127.0.0.1:56861
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 set active sent:0 recvd:0 state:LN
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 0000000002456D10:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:-1 listening at sid:5f53ec211433a7926566355155ebc5bf5ce4 nsock:2
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic connection created
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:c0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:0 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1200 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:0 recvd:1200 state:LN
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stateless reset token 94bb81d96945c0e315430b0b5092ca06
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx init CRYPTO len:305 off:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic SSL_quic_read_level:0 SSL_quic_write_level:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL server name: "localhost"
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL ALPN supported by client: h3
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL ALPN supported by client: h3-29
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL ALPN supported by client: h3-30
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL ALPN supported by client: h3-31
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL ALPN supported by client: h3-32
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL ALPN selected: h3
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_add_handshake_data
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic SSL_get_peer_quic_transport_params(): params_len:72
+2022/11/22 11:40:41 [info] 31455#0: *1 quic unknown transport param id:0x2ab2, skipped while handling frames, client: 127.0.0.1, server: 0.0.0.0:8443
+2022/11/22 11:40:41 [info] 31455#0: *1 quic unknown transport param id:0xff73db, skipped while handling frames, client: 127.0.0.1, server: 0.0.0.0:8443
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic transport parameters parsed ok
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp disable active migration: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp idle_timeout:30000
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp max_udp_payload_size:1252
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp max_data:15728640
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp max_stream_data_bidi_local:6291456
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp max_stream_data_bidi_remote:6291456
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp max_stream_data_uni:6291456
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp initial_max_streams_bidi:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp initial_max_streams_uni:100
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp ack_delay_exponent:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp max_ack_delay:25
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp active_connection_id_limit:7
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic tp initial source_connection_id len:17 8a6feb788faaecf0193b74194ebbfb6002
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 000000000244C580:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244C250:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_set_write_secret() level:2
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_add_handshake_data
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 000000000249DC60:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_set_write_secret() level:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 0000000002457420:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_flush_flight()
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_set_read_secret() level:2
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic SSL_quic_read_level:2 SSL_quic_write_level:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL_do_handshake: -1
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL_get_error: 2
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx init PADDING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:0 largest -1 fr:0 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:init decr:1 pn:0 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 30000:5791401825
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:30000
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 8347
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output init packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx init CRYPTO len:90 off:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx init ACK n:0 delay:0 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx init bytes:99 need_ack:1 number:0 encoded nl:1 trunc:0x0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output hs packet max:1089 min:1037
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic split frame now:1054 need:1026 shrink:28
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx hs CRYPTO len:1022 off:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx hs bytes:1026 need_ack:1 number:0 encoded nl:1 trunc:0x0
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 1252 of 1252
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:163
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1252
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1252
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output hs packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx hs CRYPTO len:28 off:1022
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx hs bytes:32 need_ack:1 number:1 encoded nl:1 trunc:0x1
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 94 of 94
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1252
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1346
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1346
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401825
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer pto:997
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 997:5791372822
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: send:30000 pto:997
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: send:30000 pto:997
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 997
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:70
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx long flags:e0 version:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx hs len:22
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx scid len:17 8a6feb788faaecf0193b74194ebbfb6002
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:e0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:0 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:70 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:1346 recvd:1270 state:LN
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion ack recovery win:131054 ss:-1 if:1183
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:-1 closed nsock:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer del: 6: 5791372822
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer pto:992
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 992:5791372822
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 in handshake sent:1346 recvd:1270 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx hs ACK n:0 delay:0 1-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_handle_ack_frame level:2
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion ack recovery win:131054 ss:-1 if:94
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion ack recovery win:131054 ss:-1 if:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic updated largest received ack:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic rtt sample latest:5 min:5 avg:5 var:2
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer del: 6: 5791372822
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer unset
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:0 largest -1 fr:0 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:hs decr:1 pn:0 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401830
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29995
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 5
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29995
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 29995
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1200
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx long flags:e7 version:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx hs len:56
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx scid len:17 8a6feb788faaecf0193b74194ebbfb6002
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:e0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:1 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1200 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:1346 recvd:2470 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx hs CRYPTO len:36 off:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic SSL_quic_read_level:2 SSL_quic_write_level:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_set_read_secret() level:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244EF80:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_add_handshake_data
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_flush_flight()
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic SSL_quic_read_level:3 SSL_quic_write_level:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 SSL_do_handshake: 1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ssl cipher:TLS_AES_128_GCM_SHA256
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic handshake completed successfully
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic key update
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer unset
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic create sockets has:1 max:7
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:1 listening at sid:5e3be860ccae2819903e99049a392edf5de8d2e1 nsock:2
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stateless reset token 0c26e0db249a3b3c93e86bee90a2546a
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:2 listening at sid:25acc4371c08e3dcbc769273a30ebdc4a487a851 nsock:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stateless reset token 854979f5bfc3a0e4d014e73a6dfd0184
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:3 listening at sid:6ee42bcf191f3541c9652c5e92ff839cd67d42a8 nsock:4
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244ECF0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stateless reset token 733042d58089cf6f7c4a3fa86723d2a4
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:4 listening at sid:fe4b52aed969073203fa44a3454a3d42f825ffcc nsock:5
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stateless reset token 249ad9293d0906bf5c3c10801482df8d
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244B680:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:5 listening at sid:931d8642e5516b143f6d080b2db0a7122bae6f08 nsock:6
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stateless reset token e048c12dae87a92dbd68d526a598cb91
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic socket seq:6 listening at sid:119ddc246c8cbe130f89bf47ee088061ab81058c nsock:7
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244B890:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stateless reset token 0de3d2fad0264b75ebdf2fb5f131eead
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic init streams
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:1 largest 0 fr:0 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:hs decr:1 pn:1 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:58
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:0 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app NEW_CONNECTION_ID seq:1 retire:0 len:17
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic cid seq:1 received id:17:201faec9fc692d9da151943547e3831233:01d3bc98bf1d337a0c5e4a6a07682d75
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x2 len:18
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x2 is missing
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x2 create
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000249EC70:16384 @16
+2022/11/22 11:40:41 [debug] 31455#0: *2 add cleanup: 000000000249ED10
+2022/11/22 11:40:41 [debug] 31455#0: *2 post event 000000000246DDC0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x2 flow control msd:18/65536 md:18/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0xa len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0xa is missing
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x6 create
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244BDB0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024A2C80:16384 @16
+2022/11/22 11:40:41 [debug] 31455#0: *3 add cleanup: 00000000024A2D20
+2022/11/22 11:40:41 [debug] 31455#0: *3 post event 000000000246DE20
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0xa create
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244BAA0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024A6C90:16384 @16
+2022/11/22 11:40:41 [debug] 31455#0: *4 add cleanup: 00000000024A6D30
+2022/11/22 11:40:41 [debug] 31455#0: *4 post event 000000000246DE80
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0xa flow control msd:1/65536 md:19/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024AACA0:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x6 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x6 flow control msd:1/65536 md:20/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024ABCB0:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 len:988
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 is missing
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 create
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 0000000002457630:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024ACCC0:16384 @16
+2022/11/22 11:40:41 [debug] 31455#0: *5 add cleanup: 00000000024ACD60
+2022/11/22 11:40:41 [debug] 31455#0: *5 post event 000000000246DEE0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow control msd:988/65536 md:1008/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024B0CD0:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:0 largest -1 fr:0 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:0 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401848
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29977
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 18
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244D5E0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output hs packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx hs ACK n:0 delay:0 1-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx hs bytes:5 need_ack:0 number:2 encoded nl:1 trunc:0x2
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 25:5791371873
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1185 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app CRYPTO len:428 off:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app HANDSHAKE DONE
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app NEW_CONNECTION_ID seq:1 retire:0 len:20
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app NEW_CONNECTION_ID seq:2 retire:0 len:20
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app NEW_CONNECTION_ID seq:3 retire:0 len:20
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app NEW_CONNECTION_ID seq:4 retire:0 len:20
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app NEW_CONNECTION_ID seq:5 retire:0 len:20
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app NEW_CONNECTION_ID seq:6 retire:0 len:20
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:673 need_ack:1 number:0 encoded nl:1 trunc:0x0
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 775 of 775
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:708
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401848
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer pto:38
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 38:5791371886
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: send:29977 push:25 pto:38
+2022/11/22 11:40:41 [debug] 31455#0: posted event 000000000246DDC0
+2022/11/22 11:40:41 [debug] 31455#0: *2 delete posted event 000000000246DDC0
+2022/11/22 11:40:41 [debug] 31455#0: *2 quic init stream
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 init session
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244D7F0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 add cleanup: 000000000244BF78
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 send settings
+2022/11/22 11:40:41 [debug] 31455#0: *2 quic creating server uni stream streams:0 max:100 id:0x3
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x3 create
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024B1CE0:16384 @16
+2022/11/22 11:40:41 [debug] 31455#0: *6 add cleanup: 00000000024B1D80
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 create uni stream, type:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024B5CF0:4096
+2022/11/22 11:40:41 [debug] 31455#0: *6 quic send_chain sent:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x3 flush limit:6291456
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x3 flush len:1 last:0
+2022/11/22 11:40:41 [debug] 31455#0: *6 post event 000000000246DF40
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244DA00:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *6 quic send_chain sent:8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x3 flush limit:6291455
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x3 flush len:8 last:0
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 init uni stream
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 read handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x2 recv buf:128
+2022/11/22 11:40:41 [debug] 31455#0: *2 quic stream id:0x2 recv len:18
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x2 flow update 18
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse uni
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 0
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 control stream
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse control
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 4
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse frame type:4
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 15
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse frame len:15
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse settings
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 6
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 4611686018427387903
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 param SETTINGS_MAX_HEADER_LIST_SIZE:4611686018427387903
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse settings done
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse settings
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 1
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 4096
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 param QPACK_MAX_TABLE_CAPACITY:4096
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse settings done
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse settings
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 7
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse varlen int 100
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 param QPACK_BLOCKED_STREAMS:100
+2022/11/22 11:40:41 [debug] 31455#0: *2 http3 parse settings done
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x2 recv buf:128
+2022/11/22 11:40:41 [debug] 31455#0: *2 quic stream id:0x2 recv() not ready
+2022/11/22 11:40:41 [debug] 31455#0: posted event 000000000246DE20
+2022/11/22 11:40:41 [debug] 31455#0: *3 delete posted event 000000000246DE20
+2022/11/22 11:40:41 [debug] 31455#0: *3 quic init stream
+2022/11/22 11:40:41 [debug] 31455#0: *3 http3 init uni stream
+2022/11/22 11:40:41 [debug] 31455#0: *3 http3 read handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x6 recv buf:128
+2022/11/22 11:40:41 [debug] 31455#0: *3 quic stream id:0x6 recv len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x6 flow update 1
+2022/11/22 11:40:41 [debug] 31455#0: *3 http3 parse uni
+2022/11/22 11:40:41 [debug] 31455#0: *3 http3 parse varlen int 2
+2022/11/22 11:40:41 [debug] 31455#0: *3 http3 encoder stream
+2022/11/22 11:40:41 [debug] 31455#0: *3 http3 parse encoder instruction
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x6 recv buf:128
+2022/11/22 11:40:41 [debug] 31455#0: *3 quic stream id:0x6 recv() not ready
+2022/11/22 11:40:41 [debug] 31455#0: posted event 000000000246DE80
+2022/11/22 11:40:41 [debug] 31455#0: *4 delete posted event 000000000246DE80
+2022/11/22 11:40:41 [debug] 31455#0: *4 quic init stream
+2022/11/22 11:40:41 [debug] 31455#0: *4 http3 init uni stream
+2022/11/22 11:40:41 [debug] 31455#0: *4 http3 read handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0xa recv buf:128
+2022/11/22 11:40:41 [debug] 31455#0: *4 quic stream id:0xa recv len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0xa flow update 1
+2022/11/22 11:40:41 [debug] 31455#0: *4 http3 parse uni
+2022/11/22 11:40:41 [debug] 31455#0: *4 http3 parse varlen int 3
+2022/11/22 11:40:41 [debug] 31455#0: *4 http3 decoder stream
+2022/11/22 11:40:41 [debug] 31455#0: *4 http3 parse decoder instruction
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0xa recv buf:128
+2022/11/22 11:40:41 [debug] 31455#0: *4 quic stream id:0xa recv() not ready
+2022/11/22 11:40:41 [debug] 31455#0: posted event 000000000246DEE0
+2022/11/22 11:40:41 [debug] 31455#0: *5 delete posted event 000000000246DEE0
+2022/11/22 11:40:41 [debug] 31455#0: *5 quic init stream
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 init request stream
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 wait request handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 recv buf:1024
+2022/11/22 11:40:41 [debug] 31455#0: *5 quic stream id:0x0 recv len:988
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow update 988
+2022/11/22 11:40:41 [debug] 31455#0: *5 reusable connection: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 posix_memalign: 00000000024B6D00:4096 @16
+2022/11/22 11:40:41 [debug] 31455#0: *5 add cleanup: 00000000024B7AE0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 process request
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse headers
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse varlen int 1
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse varlen int 43
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse headers type:1, len:43
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field section prefix
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field section prefix done insert_count:0, sign:0, delta_base:0, base:0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 check insert count req:0, have:0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field ri
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 17
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field ri done static[17]
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 static[17] lookup ":method":"GET"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation done
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 method "GET" 2
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field ri
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 23
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field ri done static[23]
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 static[23] lookup ":scheme":"https"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation done
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 schema "https"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field lri
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 10
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse literal huff:1, len:10
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse literal done "127.0.0.1:8443"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field lri done static[0] "127.0.0.1:8443"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 static[0] lookup ":authority":""
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation done
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 authority "127.0.0.1:8443"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field ri
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 1
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field ri done static[1]
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 static[1] lookup ":path":"/"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation done
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 path "/"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field lri
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 95
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 15
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse literal huff:1, len:15
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse literal done "nghttp3/ngtcp2 client"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field lri done static[95] "nghttp3/ngtcp2 client"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 static[95] lookup "user-agent":""
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation done
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 request line: "GET / HTTP/3.0"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http uri: "/"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http args: ""
+2022/11/22 11:40:41 [debug] 31455#0: *5 http exten: ""
+2022/11/22 11:40:41 [debug] 31455#0: *5 posix_memalign: 00000000024B7D10:4096 @16
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 header: "user-agent: nghttp3/ngtcp2 client"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field lri
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 4
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse prefix int 6
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse literal huff:1, len:6
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse literal done "4506448"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field lri done static[4] "4506448"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 static[4] lookup "content-length":"0"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse field representation done
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 parse headers done
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 header: "content-length: 4506448"
+2022/11/22 11:40:41 [debug] 31455#0: *5 rewrite phase: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 test location: "/"
+2022/11/22 11:40:41 [debug] 31455#0: *5 using configuration "/"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http cl:4506448 max:1048576
+2022/11/22 11:40:41 [error] 31455#0: *5 client intended to send too large body: 4506448 bytes, client: 127.0.0.1, server: , request: "GET / HTTP/3.0"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http finalize request: 413, "/?" a:1, c:1
+2022/11/22 11:40:41 [debug] 31455#0: *5 http special response: 413, "/?"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 header len:88
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 output header: ":status: 413"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 output header: "server: nginx/1.21.7"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 output header: "date: Tue, 22 Nov 2022 03:40:41 GMT"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 output header: "content-type: text/html"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 output header: "content-length: 183"
+2022/11/22 11:40:41 [debug] 31455#0: *5 write new buf t:1 f:0 00000000024B7C10, pos 00000000024B7C10, size: 2 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 write new buf t:1 f:0 00000000024B7B58, pos 00000000024B7B58, size: 59 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 write new buf t:1 f:0 00000000024B7C78, pos 00000000024B7C78, size: 3 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http write filter: l:0 f:0 s:64
+2022/11/22 11:40:41 [debug] 31455#0: *5 http output filter "/?"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http copy filter: "/?"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http postpone filter "/?" 00000000024B7CC0
+2022/11/22 11:40:41 [debug] 31455#0: *5 write old buf t:1 f:0 00000000024B7C10, pos 00000000024B7C10, size: 2 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 write old buf t:1 f:0 00000000024B7B58, pos 00000000024B7B58, size: 59 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 write old buf t:1 f:0 00000000024B7C78, pos 00000000024B7C78, size: 3 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000976F80, size: 130 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000976480, size: 53 file: 0, size: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http write filter: l:1 f:0 s:247
+2022/11/22 11:40:41 [debug] 31455#0: *5 http write filter limit 2097152
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024B8D20:4096
+2022/11/22 11:40:41 [debug] 31455#0: *5 quic send_chain sent:247
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flush limit:6291456
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244DF00:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flush len:247 last:0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http write filter 0000000000000000
+2022/11/22 11:40:41 [debug] 31455#0: *5 http copy filter: 0 "/?"
+2022/11/22 11:40:41 [debug] 31455#0: *5 http finalize request: 0, "/?" a:1, c:1
+2022/11/22 11:40:41 [debug] 31455#0: *5 http request count:1 blk:0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http close request
+2022/11/22 11:40:41 [debug] 31455#0: *5 http log handler
+2022/11/22 11:40:41 [debug] 31455#0: *5 run cleanup: 00000000024B7AE0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 75000:5791446848
+2022/11/22 11:40:41 [debug] 31455#0: *5 free: 00000000024B6D00, unused: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 free: 00000000024B7D10, unused: 2705
+2022/11/22 11:40:41 [debug] 31455#0: *5 close http connection: 6
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 send stream cancellation 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 quic creating server uni stream streams:1 max:100 id:0x7
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x7 create
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024B9D30:16384 @16
+2022/11/22 11:40:41 [debug] 31455#0: *7 add cleanup: 00000000024B9DD0
+2022/11/22 11:40:41 [debug] 31455#0: *5 http3 create uni stream, type:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024B6D00:4096
+2022/11/22 11:40:41 [debug] 31455#0: *7 quic send_chain sent:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x7 flush limit:6291456
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244E110:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x7 flush len:1 last:0
+2022/11/22 11:40:41 [debug] 31455#0: *7 post event 000000000246DFA0
+2022/11/22 11:40:41 [debug] 31455#0: *7 quic send_chain sent:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x7 flush limit:6291455
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x7 flush len:1 last:0
+2022/11/22 11:40:41 [debug] 31455#0: *5 reusable connection: 0
+2022/11/22 11:40:41 [debug] 31455#0: *5 run cleanup: 00000000024ACD60
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 cleanup
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 send shutdown
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flush limit:6291209
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244E320:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flush len:0 last:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 recv shutdown
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *5 free: 00000000024ACCC0, unused: 14948
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app STREAM id:0x3 off:0 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app STREAM id:0x3 off:1 len:8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app STREAM id:0x0 off:0 len:247
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app STREAM id:0x7 off:0 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app STREAM id:0x7 off:1 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app STREAM id:0x0 off:247 len:0 fin:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app STOP_SENDING id:0x0 err:0x100
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:288 need_ack:1 number:1 encoded nl:1 trunc:0x1
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 323 of 323
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:708
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:708
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer del: 6: 5791371886
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer pto:38
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 38:5791371886
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: send:29977 push:25 pto:38
+2022/11/22 11:40:41 [debug] 31455#0: posted event 000000000246DF40
+2022/11/22 11:40:41 [debug] 31455#0: *6 delete posted event 000000000246DF40
+2022/11/22 11:40:41 [debug] 31455#0: *6 http3 dummy read handler
+2022/11/22 11:40:41 [debug] 31455#0: posted event 000000000246DFA0
+2022/11/22 11:40:41 [debug] 31455#0: *7 delete posted event 000000000246DFA0
+2022/11/22 11:40:41 [debug] 31455#0: *7 http3 dummy read handler
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 25
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1406
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:50
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:1 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1406 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2444 recvd:3876 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app PING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app PADDING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:1 largest 0 fr:0 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:1 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401849
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 1
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:0 delay:0 1-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:5 need_ack:0 number:2 encoded nl:1 trunc:0x2
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 40 of 40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 24
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1200
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:57
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:2 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1200 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2484 recvd:5076 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:988 len:1156
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow control msd:2144/65536 md:2164/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:2 largest 1 fr:1 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:2 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401849
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 24
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1200
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:59
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:3 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1200 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2484 recvd:6276 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:2144 len:1156
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow control msd:3300/65536 md:3320/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 000000000244E530:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:3 largest 2 fr:2 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:3 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401849
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:0 delay:0 3-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:5 need_ack:0 number:3 encoded nl:1 trunc:0x3
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 40 of 40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 24
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1200
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:48
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:8 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1200 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2524 recvd:7476 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:7924 len:1156
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow control msd:9080/65536 md:9100/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024B7D10:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024ACCC0:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:8 largest 3 fr:3 nranges:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:8 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401849
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024ADCD0:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024ADEE0:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:1 delay:0 8 3-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:7 need_ack:0 number:4 encoded nl:1 trunc:0x4
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 42 of 42
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 24
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1200
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:5f
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:11 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1200 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2566 recvd:8676 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:11392 len:1156
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow control msd:12548/65536 md:12568/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:11 largest 8 fr:0 nranges:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:11 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401849
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 malloc: 00000000024AEEF0:4096
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:2 delay:0 11 8 3-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:9 need_ack:0 number:5 encoded nl:1 trunc:0x5
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 44 of 44
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29976 push:24 pto:37
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 24
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:593
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:44
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:17 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:593 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2610 recvd:9269 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:7375 len:549
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:17 largest 11 fr:0 nranges:2
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:17 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401851
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 2
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 posix_memalign: 00000000024AFF00:512 @16
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:3 delay:0 17 11 8 3-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:11 need_ack:0 number:6 encoded nl:1 trunc:0x6
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 46 of 46
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 22
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1406
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:54
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:18 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1406 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2656 recvd:10675 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:9080 len:1362
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:18 largest 17 fr:0 nranges:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:18 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401851
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 22
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:994
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:45
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:19 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:994 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2656 recvd:11669 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:10442 len:950
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:19 largest 18 fr:1 nranges:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:19 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401851
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:3 delay:0 19-17 11 8 3-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:11 need_ack:0 number:7 encoded nl:1 trunc:0x7
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 46 of 46
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 22
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1406
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:55
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:20 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1406 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2702 recvd:13075 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app RESET_STREAM id:0x0 error_code:0x100 final_size:0x3588
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow control msd:13704/65536 md:13724/8585216
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 flow update 13704
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 close
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:3300 len:1356
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 is missing
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:20 largest 19 fr:2 nranges:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:20 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401851
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:35
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app MAX_STREAMS limit:129 bidi:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:3 need_ack:1 number:8 encoded nl:1 trunc:0x8
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 38 of 38
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1031
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401851
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer del: 6: 5791371886
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer pto:38
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 38:5791371889
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: send:29974 push:22 pto:38
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 22
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1406
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:52
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:22 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1406 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2740 recvd:14481 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app STREAM id:0x0 off:6018 len:1357
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x0 is missing
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app PADDING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:22 largest 20 fr:3 nranges:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:22 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401851
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:38
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:4 delay:0 22 20-17 11 8 3-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:13 need_ack:0 number:9 encoded nl:1 trunc:0x9
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 48 of 48
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:38
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29974 push:22 pto:38
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 22
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 22
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer del: 6: 5791371873
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29952 pto:16
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 16
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:1444
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:45
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:25 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:1444 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2788 recvd:15925 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app PING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app PADDING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:25 largest 22 fr:0 nranges:4
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:25 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401881
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29944 pto:8
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 8
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app ACK n:5 delay:0 25 22 20-17 11 8 3-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:15 need_ack:0 number:10 encoded nl:1 trunc:0xa
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 50 of 50
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29944 pto:8
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29944 pto:8
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 8
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 8
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer del: 6: 5791371889
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic pto timer
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic pto app pto_count:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 update posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29936
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app PING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:3 need_ack:1 number:11 encoded nl:1 trunc:0xb
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 38 of 38
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1069
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1107
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic output app packet max:1252 min:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame tx app PING
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet tx app bytes:3 need_ack:1 number:12 encoded nl:1 trunc:0xc
+2022/11/22 11:40:41 [debug] 31455#0: *1 sendmsg: 38 of 38
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1107
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1107
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion send if:1145
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401889
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer pto:76
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer add: 6: 76:5791371965
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: send:29936 pto:76
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 76
+2022/11/22 11:40:41 [debug] 31455#0: epoll: fd:6 ev:0001 d:00002B99648DC010
+2022/11/22 11:40:41 [debug] 31455#0: recvmsg on 0.0.0.0:8443, ready: 0
+2022/11/22 11:40:41 [debug] 31455#0: *1 recvmsg: fd:6 n:43
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic input handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx short flags:44
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx dcid len:20 0ddcbc60bc8822094e694cdaddc7ad8223921b34
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx clearflags:40
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet rx number:26 len:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet len:43 via sock seq:0 path seq:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic path seq:0 status sent:2914 recvd:15968 state:V
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic frame rx app ACK n:0 delay:3 12-0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_handle_ack_frame level:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion slow start win:131762 ss:-1 if:437
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion slow start win:132085 ss:-1 if:114
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x3 ack len:1 acked:1 unacked:8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x3 ack len:8 acked:9 unacked:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x7 ack len:1 acked:1 unacked:1
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic stream id:0x7 ack len:1 acked:2 unacked:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion slow start win:132123 ss:-1 if:76
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion slow start win:132161 ss:-1 if:38
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic congestion slow start win:132199 ss:-1 if:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 post event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic updated largest received ack:12
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic rtt sample latest:0 min:0 avg:5 var:3
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer del: 6: 5791371965
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic lost timer unset
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic ngx_quic_ack_packet pn:26 largest 25 fr:0 nranges:5
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic packet done rc:0 level:app decr:1 pn:26 perr:0
+2022/11/22 11:40:41 [debug] 31455#0: *1 event timer: 6, old: 5791401825, new: 5791401889
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29936
+2022/11/22 11:40:41 [debug] 31455#0: timer delta: 0
+2022/11/22 11:40:41 [debug] 31455#0: posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 delete posted event 00000000024564C8
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic push handler
+2022/11/22 11:40:41 [debug] 31455#0: *1 quic state: read:29936
+2022/11/22 11:40:41 [debug] 31455#0: worker cycle
+2022/11/22 11:40:41 [debug] 31455#0: epoll timer: 29936
